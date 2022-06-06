@@ -165,6 +165,34 @@ namespace Tic_Tac_Toe
                 {
                     turn = 'X';
                 }
+                if (btnFive.Text == btnTwo.Text)
+                {
+                    if (btnFive.Text == btnEight.Text)
+                    {
+                        MessageBox.Show("Winner! " + btnFive.Text);
+                    }
+                }
+                if (btnFive.Text == btnFour.Text)
+                {
+                    if (btnFive.Text == btnSix.Text)
+                    {
+                        MessageBox.Show("Winner! " + btnFive.Text);
+                    }
+                }
+                if (btnFive.Text == btnOne.Text)
+                {
+                    if (btnFive.Text == btnNine.Text)
+                    {
+                        MessageBox.Show("Winner! " + btnFive.Text);
+                    }
+                }
+                if (btnFive.Text == btnThree.Text)
+                {
+                    if (btnFive.Text == btnSeven.Text)
+                    {
+                         MessageBox.Show("Winner! " + btnFive.Text);
+                    }
+                }
             }
         }
 
@@ -181,7 +209,20 @@ namespace Tic_Tac_Toe
                 {
                     turn = 'X';
                 }
-            }
+                if (btnSix.Text == btnThree.Text)
+                {
+                    if (btnSix.Text == btnNine.Text)
+                    {
+                        MessageBox.Show("Winner! " + btnSix.Text);
+                    }
+                }
+                if (btnSix.Text == btnFive.Text)
+                {
+                    if (btnSix.Text == btnFour.Text)
+                    {
+                        MessageBox.Show("Winner! " + btnSix.Text);
+                    }
+                }
         }
 
         private void btnSeven_Click(object sender, EventArgs e)
