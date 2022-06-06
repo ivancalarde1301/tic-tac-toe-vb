@@ -38,7 +38,6 @@ namespace Tic_Tac_Toe
                         MessageBox.Show("Winner! " + btnOne.Text);
                     }
                 }
-
                 if (btnOne.Text == btnFour.Text)
                 {
                     if (btnOne.Text == btnSeven.Text)
@@ -46,7 +45,6 @@ namespace Tic_Tac_Toe
                         MessageBox.Show("Winner! " + btnOne.Text);
                     }
                 }
-
                 if (btnOne.Text == btnFive.Text)
                 {
                     if (btnOne.Text == btnNine.Text)
@@ -77,12 +75,11 @@ namespace Tic_Tac_Toe
                         MessageBox.Show("Winner! " + btnTwo.Text);
                     }
                 }
-
                 if (btnTwo.Text == btnFive.Text)
                 {
                     if (btnTwo.Text == btnEight.Text)
                     {
-                        MessageBox.Show("Winner! " + btnOne.Text);
+                        MessageBox.Show("Winner! " + btnTwo.Text);
                     }
                 }
             }
@@ -101,6 +98,27 @@ namespace Tic_Tac_Toe
                 {
                     turn = 'X';
                 }
+                if (btnThree.Text == btnTwo.Text)
+                {
+                    if (btnThree.Text == btnOne.Text)
+                    {
+                        MessageBox.Show("Winner! " + btnThree.Text);
+                    }
+                }
+                if (btnThree.Text == btnSix.Text)
+                {
+                    if (btnThree.Text == btnNine.Text)
+                    {
+                        MessageBox.Show("Winner! " + btnThree.Text);
+                    }
+                }
+                if (btnThree.Text == btnFive.Text)
+                {
+                    if (btnThree.Text == btnSeven.Text)
+                    {
+                        MessageBox.Show("Winner! " + btnThree.Text);
+                    }
+                }
             }
         }
 
@@ -116,6 +134,20 @@ namespace Tic_Tac_Toe
                 else
                 {
                     turn = 'X';
+                }
+                if (btnFour.Text == btnOne.Text)
+                {
+                    if (btnFour.Text == btnSeven.Text)
+                    {
+                        MessageBox.Show("Winner! " + btnFour.Text);
+                    }
+                }
+                if (btnFour.Text == btnFive.Text)
+                {
+                    if (btnFour.Text == btnSix.Text)
+                    {
+                        MessageBox.Show("Winner! " + btnFour.Text);
+                    }
                 }
             }
         }
