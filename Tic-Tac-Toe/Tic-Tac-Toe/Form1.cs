@@ -329,10 +329,27 @@ namespace Tic_Tac_Toe
                 }
             }
         }
-
         private void btnReset_Click(object sender, EventArgs e)
         {
-            
+            btnOne.Enabled = true;
+            btnTwo.Enabled = true;
+            btnThree.Enabled = true;
+            btnFour.Enabled = true;
+            btnFive.Enabled = true;
+            btnSix.Enabled = true;
+            btnSeven.Enabled = true;
+            btnEight.Enabled = true;
+            btnNine.Enabled = true;
+
+            btnOne.Text = "";
+            btnTwo.Text = "";
+            btnThree.Text = "";
+            btnFour.Text = "";
+            btnFive.Text = "";
+            btnSix.Text = "";
+            btnSeven.Text = "";
+            btnEight.Text = "";
+            btnNine.Text = "";
         }
     }
 }
