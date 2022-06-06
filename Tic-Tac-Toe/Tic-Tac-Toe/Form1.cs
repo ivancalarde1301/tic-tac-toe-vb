@@ -306,6 +306,27 @@ namespace Tic_Tac_Toe
                 {
                     turn = 'X';
                 }
+                if (btnNine.Text == btnSix.Text)
+                {
+                    if (btnNine.Text == btnThree.Text)
+                    {
+                        MessageBox.Show("Winner! " + btnNine.Text);
+                    }
+                }
+                if (btnNine.Text == btnEight.Text)
+                {
+                    if (btnNine.Text == btnSeven.Text)
+                    {
+                        MessageBox.Show("Winner! " + btnNine.Text);
+                    }
+                }
+                if (btnNine.Text == btnFive.Text)
+                {
+                    if (btnNine.Text == btnOne.Text)
+                    {
+                        MessageBox.Show("Winner! " + btnNine.Text);
+                    }
+                }
             }
         }
 
