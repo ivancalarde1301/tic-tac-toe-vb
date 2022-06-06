@@ -20,119 +20,146 @@ namespace Tic_Tac_Toe
 
         private void btnOne_Click(object sender, EventArgs e)
         {
-            btnOne.Text = turn.ToString();
-            if (turn == 'X')
+            if (btnOne.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                btnOne.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void btnTwo_Click(object sender, EventArgs e)
         {
-            btnTwo.Text = turn.ToString();
-            if (turn == 'X')
+            if (btnTwo.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                btnTwo.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void btnThree_Click(object sender, EventArgs e)
         {
-            btnThree.Text = turn.ToString();
-            if (turn == 'X')
+            if (btnThree.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                btnThree.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void btnFour_Click(object sender, EventArgs e)
         {
-            btnFour.Text = turn.ToString();
-            if (turn == 'X')
+            if (btnFour.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                btnFour.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void btnFive_Click(object sender, EventArgs e)
         {
-            btnFive.Text = turn.ToString();
-            if (turn == 'X')
+            if (btnFive.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                btnFive.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void btnSix_Click(object sender, EventArgs e)
         {
-            btnSix.Text = turn.ToString();
-            if (turn == 'X')
+            if (btnSix.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                btnSix.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void btnSeven_Click(object sender, EventArgs e)
         {
-            btnSeven.Text = turn.ToString();
-            if (turn == 'X')
+            if (btnSeven.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                btnSeven.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void btnEight_Click(object sender, EventArgs e)
         {
-            btnEight.Text = turn.ToString();
-            if (turn == 'X')
+            if (btnEight.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                btnEight.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
         private void btnNine_Click(
             object sender, EventArgs e)
         {
-            btnNine.Text = turn.ToString();
-            if (turn == 'X')
+            if (btnNine.Text == "")
             {
-                turn = 'O';
-            }
-            else
-            {
-                turn = 'X';
+                btnNine.Text = turn.ToString();
+                if (turn == 'X')
+                {
+                    turn = 'O';
+                }
+                else
+                {
+                    turn = 'X';
+                }
             }
         }
 
