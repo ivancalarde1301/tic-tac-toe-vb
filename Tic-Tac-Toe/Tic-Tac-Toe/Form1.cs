@@ -19,8 +19,6 @@ namespace Tic_Tac_Toe
             InitializeComponent();
         }
 
-
-
         private void btnOne_Click(object sender, EventArgs e)
         {
             if (btnOne.Text == "")
@@ -43,7 +41,7 @@ namespace Tic_Tac_Toe
                         btnOne.BackColor = Color.LightGreen;
                         btnTwo.BackColor = Color.LightGreen;
                         btnThree.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnOne.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnOne.Text == btnFour.Text)
@@ -53,7 +51,7 @@ namespace Tic_Tac_Toe
                         btnOne.BackColor = Color.LightGreen;
                         btnFour.BackColor = Color.LightGreen;
                         btnSeven.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnOne.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnOne.Text == btnFive.Text)
@@ -63,7 +61,7 @@ namespace Tic_Tac_Toe
                         btnOne.BackColor = Color.LightGreen;
                         btnFive.BackColor = Color.LightGreen;
                         btnNine.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnOne.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
             }
@@ -92,7 +90,7 @@ namespace Tic_Tac_Toe
                         btnTwo.BackColor = Color.LightGreen;
                         btnOne.BackColor = Color.LightGreen;
                         btnThree.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnTwo.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnTwo.Text == btnFive.Text)
@@ -102,7 +100,7 @@ namespace Tic_Tac_Toe
                         btnTwo.BackColor = Color.LightGreen;
                         btnFive.BackColor = Color.LightGreen;
                         btnEight.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnTwo.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
             }
@@ -130,7 +128,7 @@ namespace Tic_Tac_Toe
                         btnThree.BackColor = Color.Green;
                         btnTwo.BackColor = Color.Green;
                         btnOne.BackColor = Color.Green;
-                        MessageBox.Show("Winner! " + btnThree.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnThree.Text == btnSix.Text)
@@ -140,7 +138,7 @@ namespace Tic_Tac_Toe
                         btnThree.BackColor = Color.LightGreen;
                         btnSix.BackColor = Color.LightGreen;
                         btnNine.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnThree.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnThree.Text == btnFive.Text)
@@ -150,7 +148,7 @@ namespace Tic_Tac_Toe
                         btnThree.BackColor = Color.LightGreen;
                         btnFive.BackColor = Color.LightGreen;
                         btnSeven.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnThree.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
             }
@@ -178,7 +176,7 @@ namespace Tic_Tac_Toe
                         btnFour.BackColor = Color.LightGreen;
                         btnOne.BackColor = Color.LightGreen;
                         btnSeven.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnFour.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnFour.Text == btnFive.Text)
@@ -188,7 +186,7 @@ namespace Tic_Tac_Toe
                         btnFour.BackColor = Color.LightGreen;
                         btnFive.BackColor = Color.LightGreen;
                         btnSix.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnFour.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
             }
@@ -216,7 +214,7 @@ namespace Tic_Tac_Toe
                         btnFive.BackColor = Color.LightGreen;
                         btnTwo.BackColor = Color.LightGreen;
                         btnEight.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnFive.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnFive.Text == btnFour.Text)
@@ -226,7 +224,7 @@ namespace Tic_Tac_Toe
                         btnFive.BackColor = Color.LightGreen;
                         btnFour.BackColor = Color.LightGreen;
                         btnSix.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnFive.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnFive.Text == btnOne.Text)
@@ -236,7 +234,7 @@ namespace Tic_Tac_Toe
                         btnFive.BackColor = Color.LightGreen;
                         btnOne.BackColor = Color.LightGreen;
                         btnNine.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnFive.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnFive.Text == btnThree.Text)
@@ -246,7 +244,7 @@ namespace Tic_Tac_Toe
                         btnFive.BackColor = Color.LightGreen;
                         btnThree.BackColor = Color.LightGreen;
                         btnSeven.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnFive.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
             }
@@ -274,7 +272,7 @@ namespace Tic_Tac_Toe
                         btnSix.BackColor = Color.LightGreen;
                         btnThree.BackColor = Color.LightGreen;
                         btnNine.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnSix.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnSix.Text == btnFive.Text)
@@ -284,7 +282,7 @@ namespace Tic_Tac_Toe
                         btnSix.BackColor = Color.LightGreen;
                         btnFive.BackColor = Color.LightGreen;
                         btnFour.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnSix.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
             }
@@ -312,7 +310,7 @@ namespace Tic_Tac_Toe
                         btnSeven.BackColor = Color.LightGreen;
                         btnFour.BackColor = Color.LightGreen;
                         btnOne.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnSeven.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnSeven.Text == btnFive.Text)
@@ -322,7 +320,7 @@ namespace Tic_Tac_Toe
                         btnSeven.BackColor = Color.LightGreen;
                         btnFive.BackColor = Color.LightGreen;
                         btnThree.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnSeven.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnSeven.Text == btnEight.Text)
@@ -332,7 +330,7 @@ namespace Tic_Tac_Toe
                         btnSeven.BackColor = Color.LightGreen;
                         btnEight.BackColor = Color.LightGreen;
                         btnNine.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnSeven.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
             }
@@ -360,7 +358,7 @@ namespace Tic_Tac_Toe
                         btnEight.BackColor = Color.LightGreen;
                         btnFive.BackColor = Color.LightGreen;
                         btnTwo.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnEight.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnEight.Text == btnSeven.Text)
@@ -370,7 +368,7 @@ namespace Tic_Tac_Toe
                         btnEight.BackColor = Color.LightGreen;
                         btnSeven.BackColor = Color.LightGreen;
                         btnNine.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnEight.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
             }
@@ -398,7 +396,7 @@ namespace Tic_Tac_Toe
                         btnNine.BackColor = Color.LightGreen;
                         btnSix.BackColor = Color.LightGreen;
                         btnThree.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnNine.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnNine.Text == btnEight.Text)
@@ -408,7 +406,7 @@ namespace Tic_Tac_Toe
                         btnNine.BackColor = Color.LightGreen;
                         btnEight.BackColor = Color.LightGreen;
                         btnSeven.BackColor = Color.LightGreen;
-                        MessageBox.Show("Winner! " + btnNine.Text);
+                        MessageBox.Show("Winner!", "Game Over!");
                     }
                 }
                 if (btnNine.Text == btnFive.Text)
@@ -458,6 +456,5 @@ namespace Tic_Tac_Toe
             btnEight.BackColor = Color.White;
             btnNine.BackColor = Color.White;
         }
-
     }
 }
